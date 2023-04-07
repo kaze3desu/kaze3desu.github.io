@@ -11,13 +11,11 @@ description: "
 "
 email: kawahara3.exe@gmail.com
 contact:
-  - title: linkedin
-    url: https://www.linkedin.com/in/srsmaurya
-  - title: github
-    url: https://github.com/kaze3desu
   - title: twitter
     url: https://twitter.com/kaze3desu
-  - title: dev
-    url: https://dev.to/sharadcodes
+  - title: github
+    url: https://github.com/kaze3desu
+  - title: note
+    url: https://note.com/kaze3desu
   - title: email
     url: mailto:kawahara3.exe@gmail.com
