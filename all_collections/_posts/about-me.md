@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About me / 自己紹介
+title: About me
 date: 2023-04-08
 categories: ["self-introduction"]
 ---
