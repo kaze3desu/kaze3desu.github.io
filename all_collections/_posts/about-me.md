@@ -5,4 +5,8 @@ date: 2023-04-08
 categories: ["self-introduction"]
 ---
 
-マークダウンでなんかかく
+# マークダウンでなんかかく
+
+- a
+- b
+- c 
