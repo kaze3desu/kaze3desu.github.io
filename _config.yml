@@ -17,6 +17,7 @@ collections_dir: all_collections
 collections:
   posts:
     output: true
+    reversed: true
 
 defaults:
   - scope:
