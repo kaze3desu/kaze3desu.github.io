@@ -18,8 +18,6 @@ collections:
   posts:
     output: true
 
-timezone: Asia/Tokyo
-
 defaults:
   - scope:
       path: "_posts"

@@ -22,6 +22,7 @@ categories: [PortFolio]
 
 ### ■株式会社ROUTE06 （2022/03〜現在）
 - フルリモート前提の組織で一人目情シスとして参画
+- CRE（Corporate Reliability Engineer）として組織の信頼性をエンジニアリングで高める事をミッションにする
 - 情報セキュリティマネジメント
   - 社内規定の整備
   - ISO/IEC 27001（ISMS）認証
