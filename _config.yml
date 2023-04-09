@@ -19,6 +19,8 @@ collections:
     output: true
     order: reverse_chronological
 
+timezone: Asia/Tokyo
+
 defaults:
   - scope:
       path: "_posts"
