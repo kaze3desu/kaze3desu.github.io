@@ -7,10 +7,24 @@ categories: [PortFolio]
 
 # ポートフォリオ
 
+---
+
 ## 資格・認定
 - 普通自動車免許第一種
 - 情報セキュリティマネジメント試験
 - 公益財団法人くまもと産業支援財団登録専門家
+
+---
+
+## ITサービスマップ（作成中）
+
+| 名前 | 補足 |
+| :--- | :--- |
+| Google WorkSpace | Business Plus |
+| GitHub | Enterprise Cloud |
+| Slack | ビジネスプラス |
+
+---
 
 ## 職務経歴
 
