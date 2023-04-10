@@ -2,7 +2,7 @@
 layout: post
 title: PortFolio / ポートフォリオ
 date: 2023-04-08
-categories: [PortFolio]
+categories: [PortFolio, Career, SKill, Qualification]
 ---
 
 ## 資格・認定
