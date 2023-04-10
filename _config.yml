@@ -1,6 +1,8 @@
 title: kaze's Portfolio
+description: kaze について紹介するページです。
 markdown: kramdown
 url: "https://kaze3desu.github.io"
+image: /assets/icons/socialpreview.png
 
 # for atom feed
 author:

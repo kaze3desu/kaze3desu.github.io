@@ -3,6 +3,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{site.title}} | {{page.title}}</title>
+  <!-- 追加：OGPタグ -->
+  {% if page.description %}
+  <meta name="description" content="{{ page.description | escape }}" />
+  {% else %}
+  <meta name="description" content="{{ site.description | escape }}" />
+  {% endif %}
+  {% if page.image %}
+  <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  {% else %}
+  <meta property="og:image" content="{{ site.url }}/assets/images/default-ogp-image.png" />
+  {% endif %}
+  <meta property="og:title" content="{{ site.title }} | {{ page.title }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:description" content="{{ page.description | escape }}" />
+  <meta property="og:type" content="website" />
+  <!-- OGPタグここまで -->
   {% if page.layout == "post" %}
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/post.css" />
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css" />
@@ -14,4 +30,4 @@
   {% if page.layout == "post" %}
   <script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>
   {% endif %}
-</head>
+</head> 
