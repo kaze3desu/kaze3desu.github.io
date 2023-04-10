@@ -12,8 +12,8 @@ categories: [PortFolio]
 - 公益財団法人くまもと産業支援財団 登録専門家
 
 ## ITサービスマップ
-
-これまでに導入・運用したことのあるサービスや機器の一部を紹介します。
+<details>
+<summary>これまでに導入・運用したことのあるサービスや機器の一部を紹介します。</summary>
 
 | 名前 |
 | :--- |
@@ -44,6 +44,7 @@ categories: [PortFolio]
 | Linux |
 | iOS |
 | etc... |
+</details>
 
 ## 職務経歴
 
