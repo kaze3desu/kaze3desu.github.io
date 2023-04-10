@@ -6,17 +6,43 @@ categories: [PortFolio]
 ---
 
 ## 資格・認定
+
 - 普通自動車免許第一種
 - 情報セキュリティマネジメント試験
-- 公益財団法人くまもと産業支援財団登録専門家
+- 公益財団法人くまもと産業支援財団 登録専門家
 
-## ITサービスマップ（作成中）
+## ITサービスマップ
 
-| 名前 | 補足 |
-| :--- | :--- |
-| Google WorkSpace | Business Plus |
-| GitHub | Enterprise Cloud |
-| Slack | ビジネスプラス |
+これまでに導入・運用したことのあるサービスや機器の一部を紹介します。
+
+| 名前 |
+| :--- |
+| Google WorkSpace |
+| Microsoft365 |
+| GitHub |
+| Slack |
+| Apple Business Manager |
+| Jamf Pro |
+| Jamf Protect |
+| Zoom |
+| LINE WORKS |
+| 1Password |
+| Figma |
+| Miro |
+| Zapier |
+| セキュリオ |
+| Krisp |
+| Spir |
+| Notion |
+| FileMaker |
+| Synology |
+| Cisco Meraki |
+| YAMAHA |
+| FortiGate |
+| Windows |
+| Apple |
+| Linux |
+| etc... |
 
 ## 職務経歴
 
