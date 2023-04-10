@@ -13,37 +13,35 @@ categories: [PortFolio]
 
 ## ITサービスマップ
 <details>
-<summary>これまでに導入・運用したことのあるサービスや機器の一部を紹介します。</summary>
+<summary>これまでに導入・運用したことのあるサービスや機器の一部を紹介します。（クリックで開く）</summary>
 
-| 名前 |
-| :--- |
-| Google WorkSpace |
-| Microsoft365 |
-| GitHub |
-| Slack |
-| Apple Business Manager |
-| Jamf Pro |
-| Jamf Protect |
-| Zoom |
-| LINE WORKS |
-| 1Password |
-| Figma |
-| Miro |
-| Zapier |
-| セキュリオ |
-| Krisp |
-| Spir |
-| Notion |
-| FileMaker |
-| Synology |
-| Cisco Meraki |
-| YAMAHA |
-| FortiGate |
-| Windows |
-| macOS |
-| Linux |
-| iOS |
-| etc... |
+Google WorkSpace
+Microsoft365
+GitHub
+Slack
+Apple Business Manager
+Jamf Pro
+Jamf Protect
+Zoom
+LINE WORKS
+1Password
+Figma
+Miro
+Zapier
+セキュリオ
+Krisp
+Spir
+Notion
+FileMaker
+Synology
+Cisco Meraki
+YAMAHA
+FortiGate
+Window
+macOS
+Linux
+iOS
+etc...
 </details>
 
 ## 職務経歴
