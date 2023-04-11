@@ -18,7 +18,13 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:description" content="{{ page.description | escape }}" />
   <meta property="og:type" content="website" />
-  <!-- OGPタグここまで -->
+  <!-- 追加：Twitter Cardsタグ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@kaze3desu">
+  <meta name="twitter:title" content="kaze's Portfolio">
+  <meta name="twitter:description" content="コーポレートエンジニアの kaze について紹介するページです。">
+  <meta name="twitter:image" content="/assets/icons/socialpreview.png">
+  <!-- タグここまで -->
   {% if page.layout == "post" %}
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/post.css" />
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css" />
@@ -30,4 +36,4 @@
   {% if page.layout == "post" %}
   <script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>
   {% endif %}
-</head> 
+</head>
