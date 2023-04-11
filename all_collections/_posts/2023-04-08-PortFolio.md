@@ -24,10 +24,8 @@ categories: [PortFolio, Career, SKill, Qualification]
 
 ## ITサービスマップ
 
-これまでに導入・運用したことのあるサービスや機器の一部を紹介します。
-
 <details>
-<summary>（クリックで開く）</summary>
+<summary>これまでに導入・運用したことのあるサービスや機器の一部を紹介します。（クリックで開く）</summary>
 
 Google WorkSpace | 
 Microsoft365 | 
