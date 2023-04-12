@@ -30,10 +30,12 @@ categories: [PortFolio, Career, SKill, Qualification]
 Google WorkSpace | 
 Microsoft365 | 
 GitHub | 
+GitHub Copilot | 
 Slack | 
 Apple Business Manager | 
 Jamf Pro | 
 Jamf Protect | 
+ChatGPT | 
 Zoom | 
 LINE WORKS | 
 1Password | 
