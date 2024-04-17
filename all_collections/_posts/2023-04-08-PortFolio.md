@@ -62,6 +62,10 @@ etc...
 
 ### 株式会社ROUTE06 （2022/03〜現在）
 
+#### 2024年
+
+- Okta導入・構築
+
 #### 2023年
 
 - CRE（Corporate Reliability Engineer）として活動開始
