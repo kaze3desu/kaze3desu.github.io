@@ -45,6 +45,8 @@ categories: [PortFolio, Career, SKill, Qualification]
   - Slack、Okta、GitHub Enterprise、Figma Enterprise など
 - 管理対象Apple IDの全社導入
 - 社用スマートフォンの全社導入
+- 公式SNSのビジネスアカウント管理
+  - X、Facebook、Instagram、Youtube、LinkedIn
 
 #### **ナレッジ管理**
 
@@ -60,6 +62,8 @@ categories: [PortFolio, Career, SKill, Qualification]
 
 - ヘルプデスク対応
 - フルリモートで各種業務の遂行
+- 広告運用
+  - Meta、Google
 
 ### 製造業（2016/04〜2022/03）
 
