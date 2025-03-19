@@ -62,8 +62,9 @@ categories: [PortFolio, Career, SKill, Qualification]
 
 - ヘルプデスク対応
 - フルリモートで各種業務の遂行
-- 広告運用
-  - Meta、Google
+- Meta広告、Google広告の運用
+- チームマネジメント
+- プロジェクトマネジメント
 
 ### 製造業（2016/04〜2022/03）
 
