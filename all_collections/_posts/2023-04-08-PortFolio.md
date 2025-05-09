@@ -115,6 +115,6 @@ categories: [PortFolio, Career, SKill, Qualification]
 ### 電気自動車（EV）コミュニティ運営（2023年11月〜現在）
 
 - 毎月九州各地でイベントを開催
-- 2024年12月 Notion × Wraptas を活用して公式サイトを構築
+- 2023年12月 Notion × Wraptas を活用して公式サイトを構築
 - 2025年4月 V0 × Vercel × Supabase で公式サイトをリニューアル！
   - [MARK EV](https://markev.net/)
