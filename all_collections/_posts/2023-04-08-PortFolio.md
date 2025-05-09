@@ -35,6 +35,7 @@ categories: [PortFolio, Career, SKill, Qualification]
 
 - ISO/IEC 27001（ISMS）認証取得
   - 情報セキュリティ委員会の設立・運営
+- SOC2監査準備
 - 入社時情報セキュリティ教育の開始・講師担当
 - ゼロトラストセキュリティモデルの構築
   - デバイストラストの実装
@@ -113,6 +114,7 @@ categories: [PortFolio, Career, SKill, Qualification]
 
 ### 電気自動車（EV）コミュニティ運営（2023年11月〜現在）
 
-- 毎月イベントを開催
-- Notion × Wraptas を活用した公式サイトを構築
+- 毎月九州各地でイベントを開催
+- 2024年12月 Notion × Wraptas を活用して公式サイトを構築
+- 2025年4月 V0 × Vercel × Supabase で公式サイトをリニューアル！
   - [MARK EV](https://markev.net/)
