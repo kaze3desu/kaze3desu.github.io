@@ -29,7 +29,7 @@ categories: [PortFolio, Career, SKill, Qualification]
 
 要点のみ記載。
 
-### 株式会社ROUTE06（2022/03〜現在）
+### 株式会社ROUTE06（2022年3月〜現在）
 
 #### **セキュリティ管理**
 
@@ -68,7 +68,7 @@ categories: [PortFolio, Career, SKill, Qualification]
 - プロジェクトマネジメント
 - GitHubを活用したタスク管理・チームの生産性評価
 
-### 製造業（2016/04〜2022/03）
+### 製造業（2016年4月〜2022年3月）
 
 - 大学卒業後、新卒で入社
 - 工場で1年間の現場業務を経験後、社内SE（情シス）として5年間勤務
