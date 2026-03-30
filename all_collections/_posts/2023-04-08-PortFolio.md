@@ -29,7 +29,14 @@ categories: [PortFolio, Career, SKill, Qualification]
 
 要点のみ記載。
 
-### 株式会社ROUTE06（2022年3月〜現在）
+### 株式会社kickflow（2025年12月〜現在）
+
+- ゼロトラストセキュリティモデルの構築
+  - Okta、Iru、Cloudflare
+- ISO/IEC 27001（ISMS）
+- AIを活用した業務効率化と社内推進
+
+### 株式会社ROUTE06（2022年3月〜2025年11月）
 
 #### **セキュリティ管理**
 
