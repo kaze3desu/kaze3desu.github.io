@@ -52,6 +52,8 @@ categories: [PortFolio, Career, SKill, Qualification]
 
 - SaaSの選定・検証・導入・運用
   - Slack、Okta、GitHub Enterprise、Figma Enterprise など
+- AIツールの導入・管理
+  - Claude、ChatGPT、Cursor、Devin、CodeRabbit など
 - 管理対象Apple IDの全社導入
 - 社用スマートフォンの全社導入
 - 公式SNSのビジネスアカウント管理
