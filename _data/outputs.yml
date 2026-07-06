@@ -1,0 +1,70 @@
+# 新しいアウトプットは各セクションの先頭に追加するだけ。件数は自動集計されます。
+# 注意: タイトルは必ず "ダブルクォート" で囲むこと（# を含むタイトルが途中で切れるのを防ぐため）
+- section: 登壇・取材
+  items:
+    - title: "現場の情シスに聞く「Claude Team」活用のリアル"
+      url: https://service.dxer.co.jp/20260527webinar
+    - title: "AIと爆速で駆け抜ける。理想のゼロトラスト構築を、家族との時間も大切にしながら【リレー記事vol.20 コーポレートIT・kazeさん】"
+      url: https://note.com/kickflow/n/nf02dfe59f0b5
+    - title: "セキュリティ担当者向けメンバー限定イベント「セキュアスカイ What's Up」第6回 福岡"
+      url: https://prtimes.jp/main/html/rd/p/000000086.000073493.html
+    - title: "株式会社ROUTE06 お客様の声 セキュリオ"
+      url: https://www.lrm.jp/seculio/voice/route06/
+    - title: "Jamf Nation Live Tokyo 2024"
+      url: https://www.jamf.com/ja/lp/jnl-tokyo-2024-presentations/
+    - title: "GitHub － ユーザー事例 － ROUTE06様"
+      url: https://www.macnica.co.jp/business/dx/manufacturers/github/case_route06.html
+    - title: "情シスSlack4周年・BTAJP1周年記念イベント #BTAJP #BTCONJP"
+      url: https://corp-engr.connpass.com/event/274770/
+    - title: "情シス転職ミートアップ 第6回 x ジョーシス ラーニング"
+      url: https://corp-engr.connpass.com/event/260351/
+- section: アドベントカレンダー
+  items:
+    - title: "corp-engr 情シスSlack（コーポレートエンジニア x 情シス）#1 Advent Calendar 2025"
+      url: https://adventar.org/calendars/11540
+    - title: "corp-engr 情シスSlack（コーポレートエンジニア x 情シス）#1 Advent Calendar 2024"
+      url: https://adventar.org/calendars/10163
+    - title: "corp-engr 情シスSlack（コーポレートエンジニア x 情シス）#1 Advent Calendar 2023"
+      url: https://adventar.org/calendars/8868
+    - title: "corp-engr 情シスSlack（コーポレートエンジニア x 情シス）#1 Advent Calendar 2022"
+      url: https://adventar.org/calendars/7756
+- section: 記事
+  items:
+    - title: "Iru Passport + Okta Desktop MFA で全社 Mac の MFA を必須化した話"
+      url: https://note.com/kaze3desu/n/n36b0e27a739d
+    - title: "Claude Team / Enterprise でユーザーの利用状況を可視化する方法"
+      url: https://note.com/kaze3desu/n/n32072338c750
+    - title: "【情シス目線】組織に AI 活用を根付かせるためにやること"
+      url: https://note.com/kaze3desu/n/ndf76e97d6bcb
+    - title: "【情シス目線】Claude Team を複数社に導入して気づいたこと"
+      url: https://note.com/kaze3desu/n/n27008d5c87f5
+    - title: "MDM運用に使うApple Accountをグループアドレスで運用して詰みかけた話"
+      url: https://note.com/kaze3desu/n/n71a1b41910d2
+    - title: "コスト意識を持って業務用PCを選定しよう"
+      url: https://note.com/kaze3desu/n/n87ee79c08bd7
+    - title: "ROUTE06 で Jamf Connect を導入しました"
+      url: https://tech.route06.co.jp/entry/2024/09/26/112826
+    - title: "ROUTE06 で Okta を導入しました"
+      url: https://tech.route06.co.jp/entry/2024/09/18/151120
+    - title: "ROUTE06 で Okta と GitHub Enterprise Cloud を SAML連携 させた方法"
+      url: https://tech.route06.co.jp/entry/2024/08/30/103015
+    - title: "Googleドライブの共有設定で「リンクを知っている全員」を選択できなくする方法"
+      url: https://note.com/kaze3desu/n/n8f046dec3379
+    - title: "Macのトラブルシューティングまとめ"
+      url: https://note.com/kaze3desu/n/n211b143c4484
+    - title: "Jekyll × GitHub Pagesでポートフォリオサイトを作った話"
+      url: https://note.com/kaze3desu/n/nd10ce74e0508
+    - title: "フルリモートスタートアップ企業で一人情シスがやってること"
+      url: https://note.com/kaze3desu/n/n19c04c75a3d4
+    - title: "情シスがテスラ車と親和性が高い理由"
+      url: https://note.com/kaze3desu/n/ne1e047995d23
+    - title: "組織で利用するApple IDを全て管理対象Apple ID（Managed Apple ID）にした話"
+      url: https://note.com/kaze3desu/n/nfebef8c90e0d
+    - title: "組織で利用するApple IDを管理対象Apple ID（Managed Apple ID）にするか悩んだ時に読む記事"
+      url: https://note.com/kaze3desu/n/ndff9d056a0a9
+    - title: "もしもGmailは健在なのにプライマリドメインに障害発生してメール受信できなくなってしまった時に読むと情シスが首の皮一枚助かる記事"
+      url: https://note.com/kaze3desu/n/n75903a868e89
+    - title: "FileMakerからSlackにWebhookで通知を飛ばす方法"
+      url: https://note.com/kaze3desu/n/nbd79460ca9dd
+    - title: "中小企業の一人情シスが2ヶ月間で電子帳簿保存法に対応させるまでの軌跡"
+      url: https://note.com/kaze3desu/n/nd767da65292f
