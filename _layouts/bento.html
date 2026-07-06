@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{ site.title }}</title>
+<meta name="description" content="{{ site.description }}" />
+<meta name="theme-color" content="#060b16" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ site.title }}" />
+<meta property="og:description" content="{{ site.description }}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:image" content="{{ site.url }}/assets/icons/ogp-twitter.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@kaze3desu" />
+<meta name="twitter:title" content="{{ site.title }}" />
+<meta name="twitter:description" content="{{ site.description }}" />
+<link rel="icon" href="{{ site.baseurl }}/assets/icons/kaze.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bento.css" />
+</head>
+<body>
+
+
+<div class="bwrap">
+<div class="topbar">
+  <div class="brand grad-text">kaze's Portfolio</div>
+</div>
+
+<main class="grid">
+
+<section class="tile t-hero">
+  <div class="hero-row">
+    <div class="medal"><img src="{{ site.baseurl }}{{ site.data.profile.avatar }}" alt="{{ site.data.profile.name }} のアイコン" loading="eager" /></div>
+    <div>
+      <h1 class="name grad-text">{{ site.data.profile.name }}</h1>
+      <div class="role">{{ site.data.profile.role }}</div>
+      <div class="who">{{ site.data.profile.handle }}</div>
+    </div>
+  </div>
+  <p class="lead">{{ site.data.profile.lead }}</p>
+  <div class="meta-line">{{ site.data.profile.meta }}</div>
+  <div class="social-line">
+    {% for s in site.data.profile.socials %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a>{% endfor %}
+    <a href="mailto:{{ site.data.profile.email }}">Email</a>
+  </div>
+</section>
+
+<section class="tile t-now">
+  <div class="t-h"><h3>ハイライト</h3></div>
+  {% assign talks = site.data.outputs | first %}
+  {% assign articles = site.data.outputs | last %}
+  <div class="stat-grid">
+    <div class="stat"><div class="num">{{ 'now' | date: '%Y' | minus: site.data.stats.career_start }}<span>年</span></div><div class="lb">情シス・IT歴</div></div>
+    <div class="stat"><div class="num">{{ articles.items | size }}<span>本</span></div><div class="lb">記事</div></div>
+    <div class="stat"><div class="num">{{ talks.items | size }}<span>件</span></div><div class="lb">登壇・取材</div></div>
+    <div class="stat"><div class="num">{{ site.data.sidework | size }}<span>社</span></div><div class="lb">業務委託</div></div>
+  </div>
+</section>
+
+<section class="tile t-career">
+  <div class="t-h"><h3>経歴</h3></div>
+  {% for e in site.data.career %}
+  <div class="mini">
+    <span class="yr">{{ e.period }}</span>
+    <span class="co">{{ e.company }}<span class="rl">{{ e.role }}</span></span>
+  </div>
+  {% endfor %}
+  <button class="tbtn" data-dlg="dlg-career">職務内容の詳細</button>
+</section>
+
+<section class="tile t-str">
+  <div class="t-h"><h3>スキル・強み</h3></div>
+  <ul class="str-list">
+    {% for g in site.data.strengths %}<li>{{ g.title }}</li>{% endfor %}
+  </ul>
+  <button class="tbtn" data-dlg="dlg-str">それぞれの詳細</button>
+</section>
+
+<section class="tile t-clif">
+  <div class="t-h"><h3>資質 Top 5</h3></div>
+  <div class="clif-list">
+    {% for c in site.data.clifton %}<div class="c"><span class="g"><span>{{ forloop.index }}</span></span>{{ c }}</div>{% endfor %}
+  </div>
+</section>
+
+<section class="tile t-certs">
+  <div class="t-h"><h3>資格・認定</h3></div>
+  <div class="cert-list">
+    {% for q in site.data.certs %}<div class="c"><span class="dia"></span>{{ q }}</div>{% endfor %}
+  </div>
+</section>
+
+<section class="tile t-side">
+  <div class="t-h"><h3>副業・業務委託</h3></div>
+  <div class="side-list">
+    {% for f in site.data.sidework %}
+    <div class="mini"><span class="yr">{{ f.period }}{% if f.period2 %}<span class="yr2">{{ f.period2 }}</span>{% endif %}</span><span class="co">{{ f.company }}<span class="rl">{{ f.role }}</span></span></div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="tile t-comm">
+  <div class="t-h"><h3>趣味・ライフワーク</h3></div>
+  <div class="hobby-row">
+    {% for h in site.data.community.hobbies %}<span class="hobby">{{ h }}</span>{% endfor %}
+  </div>
+  <ul class="comm-points">
+    {% for e in site.data.community.episodes %}<li>{{ e }}</li>{% endfor %}
+  </ul>
+  <div class="btn-row">
+    <a class="glassbtn" href="{{ site.data.community.markev.url }}" target="_blank" rel="noopener">{{ site.data.community.markev.label }}</a>
+  </div>
+</section>
+
+<section class="tile t-out">
+  <div class="t-h"><h3>アウトプット</h3></div>
+  <div class="count-row">
+    {% for sec in site.data.outputs %}<span class="count">{{ sec.section }} <b>{{ sec.items | size }}</b></span>{% endfor %}
+  </div>
+  {% assign latest = site.data.outputs | last %}
+  {% for it in latest.items limit: 3 %}
+  <a class="ix" href="{{ it.url }}" target="_blank" rel="noopener"><span class="ix-t">{{ it.title }}</span></a>
+  {% endfor %}
+  <button class="tbtn" data-dlg="dlg-out">すべて見る（{% assign total = 0 %}{% for sec in site.data.outputs %}{% assign total = total | plus: sec.items.size %}{% endfor %}{{ total }}件）</button>
+</section>
+
+<section class="tile t-offer">
+  <div class="t-h"><h3>転職・副業</h3></div>
+  <div class="of-row"><span class="k">転職</span><span class="status status-closed">CLOSED</span></div>
+  <div class="of-row"><span class="k">副業</span><span class="status status-open">ご相談ください</span></div>
+  {% for c in site.data.offer.conditions limit: 3 %}
+  <div class="of-row"><span class="k">{{ c.k | split: " /" | first }}</span><span style="font-size:11.5px">{{ c.v }}</span></div>
+  {% endfor %}
+  <button class="tbtn" data-dlg="dlg-offer">条件の詳細</button>
+</section>
+
+<section class="tile t-contact">
+  <h3>ご連絡</h3>
+  <p>{{ site.data.profile.contact_lead }}</p>
+  <a class="mail grad-text" href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
+</section>
+
+</main>
+
+<footer>
+  © 2023 - {{ 'now' | date: "%Y" }} {{ site.data.profile.name }} — kaze3desu.github.io
+</footer>
+</div>
+
+<dialog id="dlg-career">
+  <div class="dlg-in">
+    <div class="dlg-head"><h3>経歴の詳細</h3><button class="dlg-close" aria-label="閉じる">✕</button></div>
+    {% for e in site.data.career %}
+    <div class="dlg-era">
+      <div class="yr">{{ e.period }}</div>
+      <h5>{{ e.company }}</h5>
+      <div class="rl">{{ e.role }}</div>
+      {% if e.summary %}<p>{{ e.summary }}</p>{% endif %}
+      {% if e.groups %}{% for g in e.groups %}{% if g.name %}<h4>{{ g.name }}</h4>{% endif %}<ul>{% for it in g.items %}<li>{{ it.text }}{% if it.subs %}<ul>{% for s in it.subs %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}</li>{% endfor %}</ul>{% endfor %}{% endif %}
+      {% if e.more %}{% for g in e.more.groups %}{% if g.name %}<h4>{{ g.name }}</h4>{% endif %}<ul>{% for it in g.items %}<li>{{ it.text }}{% if it.subs %}<ul>{% for s in it.subs %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}</li>{% endfor %}</ul>{% endfor %}{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</dialog>
+
+<dialog id="dlg-str">
+  <div class="dlg-in">
+    <div class="dlg-head"><h3>スキル・強み</h3><button class="dlg-close" aria-label="閉じる">✕</button></div>
+    {% for g in site.data.strengths %}
+    <div class="dlg-gift"><h5>{{ g.title }}</h5><p>{{ g.desc }}</p></div>
+    {% endfor %}
+  </div>
+</dialog>
+
+<dialog id="dlg-out">
+  <div class="dlg-in">
+    <div class="dlg-head"><h3>アウトプット</h3><button class="dlg-close" aria-label="閉じる">✕</button></div>
+    {% for sec in site.data.outputs %}
+    <div class="ix-h">{{ sec.section }}</div>
+    {% for it in sec.items %}
+    <a class="ix" href="{{ it.url }}" target="_blank" rel="noopener"><span class="ix-t">{{ it.title }}</span></a>
+    {% endfor %}
+    {% endfor %}
+  </div>
+</dialog>
+
+<dialog id="dlg-offer">
+  <div class="dlg-in">
+    <div class="dlg-head"><h3>転職・副業の条件</h3><button class="dlg-close" aria-label="閉じる">✕</button></div>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:6px">{{ site.data.offer.career_change.word }}</p>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:14px">{{ site.data.offer.side_work.word }}<br>{{ site.data.offer.side_work.sub }}</p>
+    {% for c in site.data.offer.conditions %}
+    <div class="cline">
+      <div class="row"><span class="ck">{{ c.k }}</span><span class="leader"></span><span class="cv">{{ c.v }}</span></div>
+      {% if c.note %}<div class="note">{{ c.note }}</div>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</dialog>
+
+<script>
+document.querySelectorAll("[data-dlg]").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    var d = document.getElementById(btn.getAttribute("data-dlg"));
+    if (d) d.showModal();
+  });
+});
+document.querySelectorAll("dialog").forEach(function (d) {
+  d.querySelector(".dlg-close").addEventListener("click", function () { d.close(); });
+  d.addEventListener("click", function (ev) { if (ev.target === d) d.close(); });
+});
+</script>
+</body>
+</html>

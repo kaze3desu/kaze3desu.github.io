@@ -1,0 +1,108 @@
+# 正社員の経歴。新しいものを先頭に追加
+# now: true で宝石ドットが明滅し「/ 現在」表示
+# 新しい経歴は先頭に追加（上から新しい順に表示されます）
+
+- period: "2025.12 —"
+  now: true
+  company: 株式会社kickflow
+  role: コーポレートエンジニア
+  groups:
+    - items:
+        - text: ゼロトラストセキュリティモデルの構築
+          subs:
+            - Okta、Iru、Cloudflare
+        - text: ISO/IEC 27001（ISMS）
+        - text: ISO/IEC 27017（クラウドサービスセキュリティ）
+        - text: AIを活用した業務効率化と社内推進
+
+
+- period: "2022.3 — 2025.11"
+  company: 株式会社ROUTE06
+  role: コーポレートエンジニア
+  groups:
+    - name: Security
+      items:
+        - text: ISO/IEC 27001（ISMS）認証の新規取得
+        - text: ISO/IEC 27017（クラウドサービスセキュリティ）認証の新規取得
+        - text: SOC2監査準備
+        - text: 入社時情報セキュリティ教育の開始・講師担当
+        - text: ゼロトラストセキュリティモデルの構築
+          subs:
+            - デバイストラストの実装
+    - name: System
+      items:
+        - text: SaaSの選定・検証・導入・運用
+          subs:
+            - Slack、Okta、GitHub Enterprise、Figma Enterprise など
+        - text: AIツールの導入・管理
+          subs:
+            - Claude、ChatGPT、Cursor、Devin、CodeRabbit など
+        - text: 管理対象Apple IDの全社導入
+        - text: 社用スマートフォンの全社導入
+        - text: 公式SNSのビジネスアカウント管理
+          subs:
+            - X、Facebook、Instagram、Youtube、LinkedIn
+  more:
+    label: 続きを読む — ナレッジ管理・採用ほか
+    groups:
+      - name: Knowledge
+        items:
+          - text: 各種ガイドラインやマニュアルの作成
+          - text: GitHub Docs による社内Wikiの運用
+      - name: Recruiting
+        items:
+          - text: カジュアル面談および一次面接を担当
+          - text: 情報システム関連のイベントで登壇・情報発信
+      - name: More
+        items:
+          - text: ヘルプデスク対応
+          - text: フルリモートで各種業務の遂行
+          - text: Meta広告、Google広告の運用
+          - text: チームマネジメント / プロジェクトマネジメント
+          - text: GitHubを活用したタスク管理・チームの生産性評価
+          - text: 自社プロダクトの要件定義サービス担当
+          - text: 自社プロダクトのカスタマーサクセス担当
+
+- period: "2016.4 — 2022.3"
+  company: 製造業
+  role: 社内SE（情シス）
+  summary: 大学卒業後、新卒で入社。工場で1年間の現場業務を経験後、社内SE（情シス）として5年間勤務。
+  groups:
+    - name: Development
+      items:
+        - text: FileMakerによる社内基幹システムの開発・保守
+          subs:
+            - バックオフィスから生産管理まで、ほぼすべてをFileMakerで内製
+        - text: SaaSの選定・検証・導入・運用
+          subs:
+            - Google Workspace、Jamf Pro、LINE WORKS など
+  more:
+    label: 続きを読む — インフラ・サーバー・IoTほか
+    groups:
+      - name: Infrastructure
+        items:
+          - text: オフィス・工場のネットワークインフラ構築・運用
+            subs:
+              - 特殊環境下でのWi-Fi環境整備
+              - オフィスリニューアルに伴う社内LAN構築
+              - 拠点間ネットワークカメラシステムの構築
+              - 拠点間VPNによる閉域網構築
+              - リモートワーク対応のVPN環境構築
+      - name: Server
+        items:
+          - text: NAS（Synology）、Windows Server、Mac（FileMaker Server）の管理
+      - name: IoT
+        items:
+          - text: 自社工場のIoT化プロジェクトに従事
+      - name: Device
+        items:
+          - text: 電子機器の選定・調達・キッティング
+            subs:
+              - Jamf Pro によるゼロタッチデプロイ環境の構築
+      - name: More
+        items:
+          - text: 情報セキュリティ教育
+          - text: ヘルプデスク対応
+          - text: 会社紹介用リクルートムービーの企画・撮影・編集
+          - text: 電子顕微鏡のセットアップ
+          - text: 基幹システムリプレイスの要件定義
