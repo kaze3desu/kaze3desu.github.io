@@ -192,12 +192,15 @@
     <div class="dlg-head"><h3>転職・副業の条件</h3><button class="dlg-close" aria-label="閉じる">✕</button></div>
     <p style="font-size:13px;color:var(--muted);margin-bottom:6px">{{ site.data.offer.career_change.word }}</p>
     <p style="font-size:13px;color:var(--muted);margin-bottom:14px">{{ site.data.offer.side_work.word }}<br>{{ site.data.offer.side_work.sub }}</p>
+    <div class="cgrid">
     {% for c in site.data.offer.conditions %}
-    <div class="cline">
-      <div class="row"><span class="ck">{{ c.k }}</span><span class="leader"></span><span class="cv">{{ c.v }}</span></div>
-      {% if c.note %}<div class="note">{{ c.note }}</div>{% endif %}
-    </div>
+      <div class="ccard">
+        <span class="ck">{{ c.k }}</span>
+        <span class="cv">{{ c.v }}</span>
+        {% if c.note %}<span class="note">{{ c.note }}</span>{% endif %}
+      </div>
     {% endfor %}
+    </div>
   </div>
 </dialog>
 
