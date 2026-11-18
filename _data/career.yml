@@ -5,7 +5,7 @@
 - period: "2025.12 —"
   now: true
   company: 株式会社kickflow
-  role: コーポレートエンジニア
+  role: コーポレートIT室 リーダー
   groups:
     - items:
         - text: ゼロトラストセキュリティモデルの構築
@@ -14,6 +14,9 @@
         - text: ISO/IEC 27001（ISMS）
         - text: ISO/IEC 27017（クラウドサービスセキュリティ）
         - text: AIを活用した業務効率化と社内推進
+        - text: 情シス向けイベント「情スシ勉強会」の企画・運営・司会
+          subs:
+            - 第1回の様子がNHKに取材される
 
 
 - period: "2022.3 — 2025.11"

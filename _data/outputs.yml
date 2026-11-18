@@ -2,6 +2,12 @@
 # 注意: タイトルは必ず "ダブルクォート" で囲むこと（# を含むタイトルが途中で切れるのを防ぐため）
 - section: 登壇・取材
   items:
+    - title: "大情スシ勉強会2027春 ～矛と盾。情シスの握り方～（企画・運営・司会進行）"
+      url: https://kickflow.com/daijosushi2027spring
+    - title: "NHK「情報漏えいリスク回避へ対策は？「個人情報持たない」企業も」（情スシ勉強会の取材）"
+      url: https://news.web.nhk/newsweb/na/nd-20261106de71407
+    - title: "情シス界隈の旬のネタを追う「情スシ勉強会」第1回 〜AI のセキュリティ、どこまでやってる?〜（企画・運営・司会）"
+      url: https://admina.moneyforward.com/jp/seminar/261105
     - title: "現場の情シスに聞く「Claude Team」活用のリアル"
       url: https://service.dxer.co.jp/20260527webinar
     - title: "AIと爆速で駆け抜ける。理想のゼロトラスト構築を、家族との時間も大切にしながら【リレー記事vol.20 コーポレートIT・kazeさん】"
@@ -30,6 +36,12 @@
       url: https://adventar.org/calendars/7756
 - section: 記事
   items:
+    - title: "情スシ勉強会 第1回 レポート"
+      url: https://note.com/kaze3desu/n/nce6915d38f8f
+    - title: "Mac で Teams のトラブルシューティングまとめ"
+      url: https://note.com/kaze3desu/n/n2f241956c7f3
+    - title: "freee MCP はリモート版だとファイルをアップロードできないので、ローカル版を社内展開した記録"
+      url: https://note.com/kaze3desu/n/n8aba97c4be99
     - title: "Iru Passport + Okta Desktop MFA で全社 Mac の MFA を必須化した話"
       url: https://note.com/kaze3desu/n/n36b0e27a739d
     - title: "Claude Team / Enterprise でユーザーの利用状況を可視化する方法"
